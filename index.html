@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    #wallst {
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+
+    #tag {
+      position: fixed;
+      width: 4%;
+      height: 7%;
+      top: 45%;
+      left:62%;
+      z-index: 2;
+     
+    }
+
+    #WallStName {
+      position: fixed;
+      color: black;
+      font-size:15px;
+      top: 48%;
+      left:65.2%;
+      z-index: 2;
+      font-family: 'Roboto', sans-serif;
+      text-decoration: none; /* Removes underline from links */
+    }
+
+    #WallStName a {
+      color: inherit; /* Ensures the link uses the text color specified for the parent */
+      text-decoration: none; /* No underline */
+    }
+
+    #WallStName a:hover {
+      color: rgb(51,153,255); /* Changes color to blue on hover */
+    }
+  </style>
+</head>
+<body>
+  <img id="wallst" src="img/WallSt.jpg" alt="Wall Street">
+
+  <img id="tag" src="img/googlemaptag.png" alt="Google Maps Tag">
+  <div id="WallStName"><a href="https://www.example.com" target="_blank">Wall St</a></div>
+</body>
+</html>
+
+
